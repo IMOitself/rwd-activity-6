@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Practice</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                text-align: center;
+                background-color: #000000;
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                padding: 16px;
+            }
+
+            p {
+                color: silver;
+            }
+
+            .col-sm p{
+                margin: 0 auto;
+                width: 250px;
+                text-align: center;
+                padding: 8px;
+            }
+
+            .col-sm img {
+                width: 100%;
+            }
+
+            .col-sm:hover {
+                border: 1px dashed silver;
+            }
+
+            .btn-light {
+                margin-bottom: 64px;
+                font-size: x-large;
+                background-color: #00000000;
+                color: silver;
+                border: 1px dashed silver;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center"></h1>
+            <p class="text-center">I based this on a game I'm currently playing, Hollow Knight: Silksong</p>
+            <button class="btn btn-light">Home</button>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <h2>Moss Mother</h2>
+                <img src="https://img.game8.co/4269391/669274f825f79776832e78002d067b59.png/show" alt="Moss Mother">
+                <p>The Moss Mother is the first boss you will encounter in Hollow Knight: Silksong</p>
+              </div>
+
+              <div class="col-sm">
+                <h2>Bell Beast</h2>
+                <img src="https://img.game8.co/4269773/a1f7869dc7159120255a26d5220d4f41.png/show" alt="Bell Beast">
+                <p>The Bell Beast is located at The Marrow, stuck in a silk trap by the entrance.</p>
+                </div>
+
+              <div class="col-sm">
+                <h2>Lace</h2>
+                <img src="https://img.game8.co/4269447/89cbd35b6c2ae7e5672bc08aa535b5c0.png/show" alt="Bell Beast">
+                <p>Lace is a boss you first encounter in Deep Docks, then again at the Cradle.</p>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
